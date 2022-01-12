@@ -1,0 +1,56 @@
+@media (max-width: 991px) {
+    .container {
+        max-width: 900px;
+
+    }
+    
+    .header {
+        
+        &__phone {
+            font-size: 14px;
+            margin: 0 auto;
+
+        }
+    } 
+
+    
+    .promo {
+        min-height: 500px;
+        padding: 21px 0 80px 0;
+        &__header {
+            font-size: 40px;
+        } 
+        
+        &__subheader {
+            font-size: 20px;
+        }
+        &__link {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        .button {
+            &_main {
+                width: 250px;
+                font-size: 15px;
+            }
+        
+    
+        }
+       
+    }
+
+    .benefits {
+        padding: 70px 15px 85px;
+        &__descr {
+            width: 250px;  
+        }
+    }
+   
+    
+}
+
+@media (max-width: 767px) {
+    
+}
+
+   

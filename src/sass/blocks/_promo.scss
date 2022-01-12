@@ -64,3 +64,53 @@
     }
    
 }
+
+.benefits {
+    min-height: 472px;
+    padding: 70px 0 85px;
+    background: #F6F6F6;
+    &__header {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+    &__items {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        text-align: center;
+        img {
+            display: block;
+            width: 70px;
+            height: 70px;
+            margin: 0 auto;
+            
+        }
+    }
+    &__subheader {
+        margin-top: 30px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    &__descr {
+        width: 277px;
+        margin: 0 auto;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 20px;
+        span {
+            text-decoration: underline;
+            color: #ff0000;
+
+        }
+
+    }
+    
+}
+
