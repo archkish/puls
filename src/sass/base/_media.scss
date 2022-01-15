@@ -1,4 +1,4 @@
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
     .container {
         max-width: 900px;
 
@@ -49,8 +49,138 @@
     
 }
 
-@media (max-width: 767px) {
-    
-}
+@media (max-width: 991px) {
+    .container {
+        max-width: 710px;
+    .header {
+        &__official {
+            display: none;
+        }
+        &__phone {
+            font-size: 16px;
+        }
+        .button {
+            font-size: 14px;
+            width: 200px;
+            height: 40px;
+            }   
+        }
+    }
+
+    .promo {
+        padding: 21px 0 70px 0;
+        min-height: 400px;
+        &__icon {
+            font-size: 13px;
+            img {
+                height: 44px;
+                width: 40px;
+            }
+        }
 
    
+    }
+    .benefits {
+        &__items {
+            display: block;
+            
+        }
+       
+        &__item  {
+            position: relative;
+    
+            img { 
+                position: absolute;
+                top: 50%;
+		        transform: translateY(-50%);
+                left: 35px;
+                width: 90px;
+                height: 90px;
+                    
+            }
+        }
+        &__subheader {
+            font-size: 20px;
+            margin-top: 35px;
+        }
+        &__descr {
+            width: 480px;
+            font-size: 16px;
+            line-height: 18px;
+            margin: 0 70px 0 180px;
+            margin-top: 20px;
+            text-align: left;
+        }
+    }
+
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 500px;
+    }
+
+    .promo {
+        &__header {
+            font-size: 35px;
+        }
+        &__subheader {
+            font-size: 17px;
+        }
+    }
+    
+    
+    .benefits {
+        &__subheader {
+            margin-top: 50px;
+        }
+        &__item {
+            img {
+                left: 20px;
+            }
+        }
+        &__descr {
+            max-width: 350px;
+            margin: 10px 70px 0 130px;
+        }
+    }
+
+}
+
+@media (max-width: 575px) {
+
+    .container {
+        max-width: 500px;
+    }
+
+    .benefits {
+        &__items {
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+        }
+        &__item {
+            text-align: center;
+            img {
+                position: static;
+                display: block;
+                transform: none;
+                margin: 50px auto 0px;
+                height: 70px;
+                width: 70px;
+            }
+        }
+        &__subheader {
+            font-size: 20px;
+            margin-top: 0px;
+            
+        }
+        &__descr {
+            margin: 0 auto;
+            margin-top: 10px;
+            
+    
+        }
+        
+    }
+}
